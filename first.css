@@ -1,0 +1,233 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.borders{
+    h1{
+        font-family: cursive;
+    }
+}
+.first-out{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid; */
+    background-image: url(../images/bgar.png);
+    background-size:cover;
+    position: relative;
+}
+.menubar{
+    position: absolute;
+    top: 1%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.para{
+    h2{
+        font-family:cursive;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    button{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:aquamarine;
+    }
+    
+
+}
+.logo h1{
+    color: rgb(246, 255, 0);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.logo{
+      margin-right: 17%;
+}
+.links{
+    margin-top: 24px;
+    width: 49%;
+
+}
+li{
+    display: inline;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+li a{
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+#lastline{
+    font-size: 20px;
+}
+button{
+    width: 50%;
+    height: 7%;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+}
+.para{
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    color: aliceblue;
+    /* border: 2px solid red; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+    width: 48%;
+    height: 60%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#logo2{
+    margin-left: 3.5cm;
+}
+#one{
+    position: relative;
+
+}
+#two{
+    position: absolute;
+    top: 19%;
+    left: 7%;
+}
+.knife{
+    position: absolute;
+    top: 22%;
+    left: 8%;
+    animation-name: kathi;
+    animation-duration: 4s;
+}
+@keyframes kathi {
+    from{
+        transform: translateX(1000px) rotate(360deg);
+    }
+    
+}
+.tomato{
+    position: absolute;
+    top: 73%;
+    left: 39%;
+    animation-name: thakali;
+    animation-duration: 5s;
+}
+@keyframes thakali {
+    from{
+        transform: translateX(1000px) rotate(960deg);
+    }
+    
+}
+
+.second-out{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+.bmm{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.photos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.name{
+    /* border: 2px solid red; */
+    height: 8%;
+    padding-top: 20px;
+    
+}
+.name h1{
+    color: yellow;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    text-align: center;
+}
+.borders{
+    /* border: 2px solid red; */
+    padding: 20px;
+    height: 50vh;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.box{
+    border: 2px solid rgb(255, 234, 0);
+    color: aliceblue;  
+    margin-left: 20vh;
+    margin-bottom: 5vh;
+}
+.box h1{
+    background-color: yellow;
+    color: black;
+    
+}
+.box p{
+    padding: 10px;
+}
+/* third - out */
+
+.third-out{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img-2/bgar112121.png);
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box-5{
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+#cooker{
+    border: 5px solid rgb(255, 230, 0);
+    margin-left: 10vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+.right-box p{
+    color: rgb(0, 255, 255);
+    font-size: 16px;
+    font-family:  cursive;
+    margin-top: 20px;
+    padding-top: 5px;
+    animation-name: parag;
+    animation-duration: 5s;
+
+}
+@keyframes parag {
+    from{
+        transform: translateY(-100px);
+    }
+    
+}
+span{
+    font-size: 35px;
+    color: rgba(13, 255, 0, 0.957);
+    margin-right: 5px;
+}
+
+
+
+
+
+
